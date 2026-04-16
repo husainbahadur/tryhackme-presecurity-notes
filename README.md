@@ -6,7 +6,7 @@
 
 ## Careers in Cyber
 
-# Module 2 - Network Fundamentals
+# **Module 2 - Network Fundamentals**
 
 ## What is Networking?
 
