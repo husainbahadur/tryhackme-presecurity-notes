@@ -1,12 +1,13 @@
 # Module 1 - Introduction to Cyber Security
 
 ## Offensive Security Intro
-
+ot was hard
+**ot was hard**
 ## Defensive Security Intro
 
 ## Careers in Cyber
 
-# **Module 2 - Network Fundamentals**
+# Module 2 - Network Fundamentals
 
 ## What is Networking?
 
