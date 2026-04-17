@@ -40,6 +40,17 @@ I learned some key areas of defensive security:
 
 - Investigation and Analysis: Members of a defensive security team are always monitoring and analysing what’s happening inside an organisation.They work to separate normal activity from suspicious behaviour, digging into the details like solving a puzzle to uncover valuable insights.
 
+I also learned that organisations don’t rely on a single tools and method to stay secure as they build layers of defences, this is called "Defence in Depth," meaning that if one security measure fails, the organisation have others to rely upon at various stages.
+
+Examples of defensive measures include:
+ 
+- Employee Training: In today's world, the human factor of cyber security cannot be ignored, because attacks more often than not targeting employees rather than systems this is called social engineering, training employees to be proactive in recognising attempts for things like phishing is essential.
+
+- Intrusion Detection Systems (IDS):These devices act as surveillance cameras across the organisation's IT.They monitor and alert when suspicious behaviour or activity is detected across the network or systems.
+ 
+- Firewalls: These devices act as security guards on an organisation's network.They monitor and determine what traffic is allowed to enter the network, or should be rejected.
+
+- Security Policies: Security policies help organisations ensure that their systems are used correctly.They can reduce risk by blocking access to dangerous websites or requiring strong passwords, making it harder for attackers to guess login details.
 ## Careers in Cyber
 
 # Module 2 - Network Fundamentals
