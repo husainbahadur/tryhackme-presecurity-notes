@@ -9,6 +9,8 @@ What you learned?
 ## Offensive Security Intro
 The objective was to hack a fake bank website and send 2000 to my account in a virtual machine. The overall goal was to show how an ethical hacker operates.
 
+**Defensive Security**: play a key role in protecting networks and organisations across the globe
+
 The tool I used was called dirb. This tool uses a brute-force approach, by taking a list of potential page names and testing one by one if they existed in the fake bank website.
 
 I found that there were two hidden pages name and one had "BANK-DEPOSIT" at the end of the url which I copied and pasted into my Firefox browser and sent my account 2000. 
@@ -51,6 +53,8 @@ Examples of defensive measures include:
 - Firewalls: These devices act as security guards on an organisation's network.They monitor and determine what traffic is allowed to enter the network, or should be rejected.
 
 - Security Policies: Security policies help organisations ensure that their systems are used correctly.They can reduce risk by blocking access to dangerous websites or requiring strong passwords, making it harder for attackers to guess login details.
+
+
 ## Careers in Cyber
 
 # Module 2 - Network Fundamentals
