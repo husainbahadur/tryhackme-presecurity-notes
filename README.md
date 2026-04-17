@@ -5,7 +5,7 @@ What you learned?
 # Module 1 - Introduction to Cyber Security
 **Offensive Security**: where you simulate a hacker's actions to find vulnerabilities in a system?
 
-**Terminal**: also known as the command line, is a program that allows user to send text-based commands to the computer. A lot of hacking tools, including dirb, need to be executed from a terminal.
+**Terminal**: also known as the command line interface, is a program that allows user to send text-based commands to the computer.
 ## Offensive Security Intro
 The objective was to hack a fake bank website and send 2000 to my account in a virtual machine. The overall goal was to show how an ethical hacker operates.
 
