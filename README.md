@@ -38,6 +38,7 @@ and more like sorce IP, URLs attempted. The most interesting one was the Attack 
 - Target: Admin Panels
 - Method: Automated Scanning
 - Risk Level: Medium
+
 This makes sense as the method I used was dirb tool to scan for any hidden pages on the fake bank site and my target was the admin panel, and I think the directory enumeration means the hacker(me) used a directory like the Terminal. Also I responded to the attack by copying the source IP and blocking it form accessing the fake bank website basicall, I IP banned the hacker.
 
 I found out that SOCs are the defensive security centres for organisation's technology. This centre is the frontline of protecting an organisation, often operating around 365 days a year, and employs a variety of security professionals who monitor and protect the organisation's networks, systems, and data.
@@ -74,7 +75,7 @@ Examples of defensive measures include:
 - Security Policies: Security policies help organisations ensure that their systems are used correctly.They can reduce risk by blocking access to dangerous websites or requiring strong passwords, making it harder for attackers to guess login details.
 
 ## Careers in Cyber
-
+I learned about 7 careers in Cyber Security, **Security Analyst** who are responsible for maintaining the security of an organisation's data, **Security Engineer who design, monitor and maintain security controls, networks, and systems to help prevent cyberattacks, **Incident Responder** who jdentifies and mitigates attacks whilst an attackers operations are still unfolding, **Digital Forensics Examiner** are responsible for using digital forensics to investigate incidents and crimes, **Malware Analyst** who analyses all types of malware to learn more about how they work and what they do, **Penetration Tester** who are responsible for testing technology products for security loopholes and **Red Teamer** plays the role of an adversary, attacking an organisation and providing feedback from an enemies perspective.
 # Module 2 - Network Fundamentals
 
 ## What is Networking?
