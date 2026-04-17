@@ -79,12 +79,12 @@ I learned about 7 careers in Cyber Security, **Security Analyst** who are respon
 
 Overview of all careers:
 
-- **Security Analyst**:Security analysts are integral to constructing security measures across organisations to protect the company from attacks. Analysts explore and evaluate company networks to uncover actionable data and recommendations for engineers to develop preventative measures. This job role requires working with various stakeholders to gain an understanding of security requirements and the security landscape.
+- **Security Analyst**: are integral to constructing security measures across organisations to protect the company from attacks. Analysts explore and evaluate company networks to uncover actionable data and recommendations for engineers to develop preventative measures. This job role requires working with various stakeholders to gain an understanding of security requirements and the security landscape.
 
-Responsibilities
-Working with various stakeholders to analyse the cyber security throughout the company
-Compile ongoing reports about the safety of networks, documenting security issues and measures taken in response
-Develop security plans, incorporating research on new attack tools and trends, and measures needed across teams to maintain data security.
+**Responsibilities**:
+- Working with various stakeholders to analyse the cyber security throughout the company
+- Compile ongoing reports about the safety of networks, documenting security issues and measures taken in response
+-Develop security plans, incorporating research on new attack tools and trends, and measures needed across teams to maintain data security.
 - **Security Engineer**:Security engineers develop and implement security solutions using threats and vulnerability data - often sourced from members of the security workforce. Security engineers work across circumventing a breadth of attacks, including web application attacks, network threats, and evolving trends and tactics. The ultimate goal is to retain and adopt security measures to mitigate the risk of attack and data loss.
 
 Responsibilities
