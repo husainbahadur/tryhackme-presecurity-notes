@@ -6,10 +6,11 @@ What you learned?
 **Offensive Security**: where you simulate a hacker's actions to find vulnerabilities in a system?
 
 **Terminal**: also known as the command line interface, is a program that allows user to send text-based commands to the computer.
+
+**Defensive Security**: aslo known as blue team play a key role in protecting networks and organisations across the globe.
+
 ## Offensive Security Intro
 The objective was to hack a fake bank website and send 2000 to my account in a virtual machine. The overall goal was to show how an ethical hacker operates.
-
-**Defensive Security**: play a key role in protecting networks and organisations across the globe
 
 The tool I used was called dirb. This tool uses a brute-force approach, by taking a list of potential page names and testing one by one if they existed in the fake bank website.
 
