@@ -22,6 +22,23 @@ Overall, the goal of Offensive Security is to  understand hacker tactics and enh
 
 I also learned that, A terminal (command line interface) is a program that allows users to send text-based commands to the computer. And lot of hacking tools, including dirb, need to be executed from a terminal. This is because the terminal is much more efficient then GUIs and Menus as it allows the user to directly talk to the software.
 ## Defensive Security Intro
+The objective was
+
+The tools
+
+I found out that
+
+I learned some key areas of defensive security:
+
+- Monitoring and Detecting: Continually observing network and system activity to detect suspicious behaviour and events. These may include, for example, monitoring for logins from another country while the employee is based in the company's London office.
+
+- Incident Response: The team quickly comes together if suspicious activity is confirmed and alerts are raised. This is when the Incident Response process begins.The process involves containing and removing the threat and restoring the business back to normality.
+ 
+- Threat Intelligence: Gathering and using information about attackers—their latest methods, targets, and trends—can greatly strengthen an organisation’s defences.For example, understanding that an attacker focuses on a specific software application used within organisations.
+
+- Vulnerability Management: Fixing software or system flaws is an important preventative measure that can lower the risk of an attack. Security teams can check which systems attackers are most likely to target. This can be done manually or with the help of automated tools.
+ 
+- Investigation and Analysis: Members of a defensive security team are always monitoring and analysing what’s happening inside an organisation.They work to separate normal activity from suspicious behaviour, digging into the details like solving a puzzle to uncover valuable insights.
 
 ## Careers in Cyber
 
