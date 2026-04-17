@@ -15,6 +15,7 @@ I learned that the core of Offensive Security is that "To outsmart a hacker, you
 - Breaking into Computer systems
 - exploiting software bugs
 - Finding loopholes in applications to gain unauthorised access
+
 Overall, the goal of Offensive Security is to  understand hacker tactics and enhance company’s system defences before real hackers do.
 
 ## Defensive Security Intro
