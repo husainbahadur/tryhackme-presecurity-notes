@@ -3,19 +3,17 @@ What tools you used?
 What you found?
 What you learned?
 # Module 1 - Introduction to Cyber Security
-
+Offensive Security: where you simulate a hacker's actions to find vulnerabilities in a system?
 ## Offensive Security Intro
-The objective was to hack a fake bank website in a legal and safe environment in a virtual machine. The goal  was to show you how an ethical hacker operates.
+The objective was to hack a fake bank website in a virtual machine. The goal  was to show how an ethical hacker operates.
+The tools
+I found
+I learned that the core of Offensive Security is that "To outsmart a hacker, you need to think like one." as it involves...
+- Breaking into Computer systems
+- exploiting software bugs
+- Finding loopholes in applications to gain unauthorised access
+Overall, the goal of Offensive Security is to  understand hacker tactics and enhance company’s system defences before real hackers do.
 
-"To outsmart a hacker, you need to think like one."
-
-This is the core of "Offensive Security." It involves breaking into computer systems, exploiting software bugs, and finding loopholes in applications to gain unauthorized access. The goal is to understand hacker tactics and enhance our system defences.
-
-Beginning Your Learning Journey
-
-In this TryHackMe room, you will be guided through hacking your first website in a legal and safe environment. The goal is to show you how an ethical hacker operates.
-
-Our labs can also be reverted to their initial state, so don't be afraid to break the machine. Experiment as much as you like, we got you covered!
 ## Defensive Security Intro
 
 ## Careers in Cyber
