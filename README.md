@@ -34,10 +34,10 @@ I learned some key areas of defensive security:
 
 - Incident Response: The team quickly comes together if suspicious activity is confirmed and alerts are raised. This is when the Incident Response process begins.The process involves containing and removing the threat and restoring the business back to normality.
  
-- Threat Intelligence: Gathering and using information about attackers—their latest methods, targets, and trends—can greatly strengthen an organisation’s defences.For example, understanding that an attacker focuses on a specific software application used within organisations.
+- Threat Intelligence: Gathering and using information about attackers trough their latest methods, targets, and trends—can greatly strengthen an organisation’s defences.For example, understanding that an attacker focuses on a specific software application used within organisations.
 
 - Vulnerability Management: Fixing software or system flaws is an important preventative measure that can lower the risk of an attack. Security teams can check which systems attackers are most likely to target. This can be done manually or with the help of automated tools.
- 
+
 - Investigation and Analysis: Members of a defensive security team are always monitoring and analysing what’s happening inside an organisation.They work to separate normal activity from suspicious behaviour, digging into the details like solving a puzzle to uncover valuable insights.
 
 ## Careers in Cyber
