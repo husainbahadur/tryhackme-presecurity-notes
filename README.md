@@ -28,9 +28,17 @@ Overall, the goal of Offensive Security is to  understand hacker tactics and enh
 
 I also learned that, A terminal (command line interface) is a program that allows users to send text-based commands to the computer. And lot of hacking tools, including dirb, need to be executed from a terminal. This is because the terminal is much more efficient then GUIs and Menus as it allows the user to directly talk to the software.
 ## Defensive Security Intro
-The objective was
+The objective was to investigate a Web discovery attack on a fake bank website in a virtual machine, which is cool because I think it's the attack that I did at the start when learning about Offensive Security.
 
-The tools
+The tools I used, in the virtual machine was a Security Analyst Dashboard, where I could see all security event particularly a web discovery attack, upon further investigation I could see an Attack Summary which showed:
+- Attacks started date
+- Duration
+and more like sorce IP, URLs attempted. The most interesting one was the Attack Parttern and it showed:
+- Attack Type: Directory Enumeration
+- Target: Admin Panels
+- Method: Automated Scanning
+- Risk Level: Medium
+This makes sense as the method I used was dirb tool to scan for any hidden pages on the fake bank site and my target was the admin panel, and I think the directory enumeration means the hacker(me) used a directory like the Terminal. Also I responded to the attack by copying the source IP and blocking it form accessing the fake bank website basicall, I IP banned the hacker.
 
 I found out that SOCs are the defensive security centres for organisation's technology. This centre is the frontline of protecting an organisation, often operating around 365 days a year, and employs a variety of security professionals who monitor and protect the organisation's networks, systems, and data.
 
