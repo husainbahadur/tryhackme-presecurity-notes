@@ -3,11 +3,14 @@ What tools you used?
 What you found?
 What you learned?
 # Module 1 - Introduction to Cyber Security
-Offensive Security: where you simulate a hacker's actions to find vulnerabilities in a system?
+**Offensive Security**: where you simulate a hacker's actions to find vulnerabilities in a system?
 ## Offensive Security Intro
 The objective was to hack a fake bank website in a virtual machine. The goal  was to show how an ethical hacker operates.
+
 The tools
+
 I found
+
 I learned that the core of Offensive Security is that "To outsmart a hacker, you need to think like one." as it involves...
 - Breaking into Computer systems
 - exploiting software bugs
