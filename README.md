@@ -11,7 +11,7 @@ The objective was to hack a fake bank website and send 2000 to my account in a v
 
 The tool I used was called dirb. This tool uses a brute-force approach, by taking a list of potential page names and testing one by one if they existed in the fake bank website.
 
-I found that there were two hidden pages name and one had "BANK-DEPOSIT" at the end of the url which I copied and pasted into my Firefox browser and sent my account 2000
+I found that there were two hidden pages name and one had "BANK-DEPOSIT" at the end of the url which I copied and pasted into my Firefox browser and sent my account 2000. 
 
 I learned that the core of Offensive Security is that "To outsmart a hacker, you need to think like one." as it involves...
 - Breaking into Computer systems
