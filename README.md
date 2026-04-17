@@ -30,11 +30,13 @@ The objective was
 The tools
 
 I found out that SOCs are the defensive security centres for organisation's technology. This centre is the frontline of protecting an organisation, often operating around 365 days a year, and employs a variety of security professionals who monitor and protect the organisation's networks, systems, and data.
-A typical day in the SOC looks like:
+
+A typical day in the Security Operation Cemtre looks like:
 - Reviewing alerts triggered by security tooling
 - Investigating anomalies
 - Responding to incidents
-These professionals are often the eyes and ears on the frontline for protecting an organisation.
+
+overall, These professionals are basically the eyes and ears on the frontline for protecting an organisation.
 
 I learned some key areas of defensive security:
 
