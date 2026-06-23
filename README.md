@@ -130,7 +130,37 @@ Overview of all careers:
 # Module 2 - Network Fundamentals
 
 ## What is Networking?
+Note: I completed this section on the free tier. The remaining sections in Module 2 (Intro to LAN, OSI Model, Packets & Frames, Extending Your Network) are behind a paywall so I haven't covered those yet.
 
+What was the objective?
+
+The objective of this section was to understand what a network actually is, why networks exist, and how devices communicate with each other on a basic level.
+
+What did I learn?
+
+I learned that a network is simply a group of connected devices that can communicate with each other and share resources. This could be as small as two computers connected at home, or as large as millions of devices connected across the internet.
+
+I learned that the internet itself is just one giant network — it's basically a massive collection of smaller networks all joined together.
+
+I also learned about the two types of networks:
+
+
+LAN (Local Area Network): A smaller network that covers a limited area, like a home, school, or office building. For example, the devices in my house connected to the same Wi-Fi are all part of a LAN.
+WAN (Wide Area Network): A much larger network that spans across large geographic areas. The internet is the biggest example of a WAN.
+
+
+Another key thing I picked up was that every device on a network needs a way to be identified so data gets sent to the right place. This is done through IP addresses and MAC addresses:
+
+
+IP Address: This is like a device's postal address on a network — it tells the network where to send data.
+MAC Address: This is a unique identifier that is physically built into a device's network hardware. Unlike IP addresses, MAC addresses don't change.
+
+
+I also learned about ping, which is a basic tool used to test whether one device can communicate with another on a network. It works by sending a small packet of data to a target device and waiting for a reply. If you get a reply, the connection works. If you don't, something is blocking it or the device is unreachable.
+
+What I took away from this
+
+This section gave me a solid foundation for understanding how devices talk to each other. Before this I kind of knew what Wi-Fi and the internet were, but I didn't really understand the structure behind it — like how every device has its own identity on a network, or that the internet is just a huge web of smaller networks. It clicked for me when I thought about it like a postal system — every device has an address, and data is the letter being delivered.
 ## Intro to LAN
 
 ## OSI Model
