@@ -1,3 +1,4 @@
+I completed this course on the free tier of TryHackMe. Where I hit a paywall, I've documented what I was able to cover in each module. Even when I couldn't go further inside the platform, I looked into the topics independently because I was genuinely curious.
 What was the objective?
 What tools you used?
 What you found?
