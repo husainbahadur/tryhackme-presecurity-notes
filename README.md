@@ -10,7 +10,7 @@ What you learned?
 
 **Defensive Security**: also known as blue team play a key role in protecting networks and organisations across the globe.
 
-**SOC**: Security Operations Center is a team of IT security professionals tasked with monitoring, preventing , detecting , investigating, and responding to threats within a company’s network and systems.
+**SOC**: Security Operations Center is a team of IT security professionals tasked with monitoring, preventing, detecting, investigating, and responding to threats within a company’s network and systems.
 
 **SIEM**: which is Security Information and Event Management and where systems are the central place for all data and information collected from security devices, workstations, servers, and more within an organisation.
 ## Offensive Security Intro
@@ -153,7 +153,7 @@ WAN (Wide Area Network): A much larger network that spans across large geographi
 Another key thing I picked up was that every device on a network needs a way to be identified so data gets sent to the right place. This is done through IP addresses and MAC addresses:
 
 
-IP Address: This is like a device's postal address on a network , it tells the network where to send data.
+IP Address: This is like a device's postal address on a network, it tells the network where to send data.
 MAC Address: This is a unique identifier that is physically built into a device's network hardware. Unlike IP addresses, MAC addresses don't change.
 
 
@@ -161,7 +161,7 @@ I also learned about ping, which is a basic tool used to test whether one device
 
 What I took away from this
 
-This section gave me a solid foundation for understanding how devices talk to each other. Before this I kind of knew what Wi-Fi and the internet were, but I didn't really understand the structure behind it , like how every device has its own identity on a network, or that the internet is just a huge web of smaller networks. It clicked for me when I thought about it like a postal system , every device has an address, and data is the letter being delivered.
+This section gave me a solid foundation for understanding how devices talk to each other. Before this I kind of knew what Wi-Fi and the internet were, but I didn't really understand the structure behind it, like how every device has its own identity on a network, or that the internet is just a huge web of smaller networks. It clicked for me when I thought about it like a postal system, every device has an address, and data is the letter being delivered.
 ## Intro to LAN
 
 ## OSI Model
@@ -189,10 +189,10 @@ I learned that DNS stands for Domain Name System, and basically it's the interne
 I learned that there are different types of DNS records, each serving a different purpose:
 
 
-A Record: Maps a domain name to an IPv4 address. This is the most common one , it's what points example.com to an IP.
+A Record: Maps a domain name to an IPv4 address. This is the most common one, it's what points example.com to an IP.
 AAAA Record: Same as an A record but for IPv6 addresses, which are longer.
 CNAME Record: Maps one domain to another domain instead of an IP. For example, www.example.com might point to example.com using a CNAME.
-MX Record: Stands for Mail Exchange , it directs emails sent to a domain to the right mail server.
+MX Record: Stands for Mail Exchange, it directs emails sent to a domain to the right mail server.
 TXT Record: Stores text information. Often used for verification purposes, like proving you own a domain.
 
 
@@ -200,19 +200,19 @@ I also learned how the DNS lookup process actually works step by step:
 
 
 I type a domain into my browser like tryhackme.com
-My computer first checks its own local cache , if it's visited this site before, it might already know the IP
+My computer first checks its own local cache, if it's visited this site before, it might already know the IP
 If not, it asks a Recursive DNS Server (usually provided by my ISP) which also checks its cache
-If the recursive server doesn't know, it asks the Root DNS Servers , these are the top level and point toward the right direction
+If the recursive server doesn't know, it asks the Root DNS Servers, these are the top level and point toward the right direction
 The root server points to the TLD (Top Level Domain) server for .com, .co.uk etc.
 The TLD server then points to the Authoritative DNS Server for that specific domain, which holds the actual DNS records
 The IP address is returned all the way back to my browser, and the connection is made
 
 
-I also learned about TTL (Time to Live) , this is a value set on DNS records that tells other servers how long to cache that record before checking again. A short TTL means changes to DNS records take effect faster, but it also means more frequent lookups.
+I also learned about TTL (Time to Live), this is a value set on DNS records that tells other servers how long to cache that record before checking again. A short TTL means changes to DNS records take effect faster, but it also means more frequent lookups.
 
 What I took away from this
 
-Before this section I just took it for granted that typing a website name into a browser just worked. Now I actually understand the chain of servers working behind the scenes every time I visit a site. The thing that stuck with me most was the step-by-step lookup process , it's like asking multiple people for directions until you reach someone who knows the exact address.
+Before this section I just took it for granted that typing a website name into a browser just worked. Now I actually understand the chain of servers working behind the scenes every time I visit a site. The thing that stuck with me most was the step-by-step lookup process, it's like asking multiple people for directions until you reach someone who knows the exact address.
 ## HTTP in Detail
 
 ## How Websites Work
@@ -236,13 +236,13 @@ What did I learn?
 I learned that a computer system is made up of several key hardware components, and each one plays a specific role in making the system function.
 
 CPU (Central Processing Unit)
-I learned that the CPU is basically the brain of the computer. It's responsible for processing instructions , every time you open an app, click something, or run a program, the CPU is the one doing the actual work of executing those instructions. The speed of a CPU is measured in GHz (gigahertz), and modern CPUs have multiple cores, meaning they can handle multiple tasks at the same time.
+I learned that the CPU is basically the brain of the computer. It's responsible for processing instructions, every time you open an app, click something, or run a program, the CPU is the one doing the actual work of executing those instructions. The speed of a CPU is measured in GHz (gigahertz), and modern CPUs have multiple cores, meaning they can handle multiple tasks at the same time.
 
 RAM (Random Access Memory)
 RAM is the computer's short-term memory. It temporarily stores data that the CPU is actively using so it can be accessed quickly. The more RAM a computer has, the more it can handle at once without slowing down. Unlike storage, RAM is wiped every time the computer is turned off.
 
 Storage (HDD / SSD)
-This is the computer's long-term memory , where everything is saved permanently, like files, the operating system, and installed software. I learned about the two main types:
+This is the computer's long-term memory, where everything is saved permanently, like files, the operating system, and installed software. I learned about the two main types:
 
 
 HDD (Hard Disk Drive): Uses spinning magnetic disks to store data. Slower but cheaper for large storage.
@@ -261,13 +261,13 @@ The GPU handles the rendering of images, video, and animations. While the CPU ha
 I also learned about the difference between input and output devices:
 
 
-Input devices are things that send data into the computer , like a keyboard, mouse, or microphone.
-Output devices are things the computer uses to send information out , like a monitor, speakers, or a printer.
+Input devices are things that send data into the computer, like a keyboard, mouse, or microphone.
+Output devices are things the computer uses to send information out, like a monitor, speakers, or a printer.
 
 
 What I took away from this
 
-This section helped me understand what's actually inside a computer rather than just seeing it as a black box. The thing that clicked for me was the difference between RAM and storage , I used to think they were basically the same thing, but they serve completely different purposes. RAM is what the computer is actively thinking about right now, storage is everything it's got saved for later.
+This section helped me understand what's actually inside a computer rather than just seeing it as a black box. The thing that clicked for me was the difference between RAM and storage, I used to think they were basically the same thing, but they serve completely different purposes. RAM is what the computer is actively thinking about right now, storage is everything it's got saved for later.
 ## Computer Types
 
 ## Client-Server Basics
@@ -299,29 +299,29 @@ Process Management: The OS controls which programs are running and allocates CPU
 Memory Management: The OS decides how RAM is allocated between different running programs. It makes sure each program gets the memory it needs without crashing into another program's space.
 File System Management: The OS organises how data is stored and retrieved on storage devices. It's what makes folders, files, and directories work the way they do.
 Device Management: The OS communicates with hardware devices like printers, keyboards, and monitors through drivers. A driver is basically a translator between the OS and a piece of hardware.
-Security and Access Control: The OS manages user accounts and permissions , deciding who can access what on the system.
+Security and Access Control: The OS manages user accounts and permissions, deciding who can access what on the system.
 
 
 I also learned about the different types of operating systems:
 
 
-Desktop OS: Designed for personal computers , examples include Windows, macOS, and Linux.
-Mobile OS: Designed for smartphones and tablets , examples include Android and iOS.
-Server OS: Designed to manage and serve resources to other computers on a network , examples include Windows Server and Ubuntu Server.
+Desktop OS: Designed for personal computers, examples include Windows, macOS, and Linux.
+Mobile OS: Designed for smartphones and tablets, examples include Android and iOS.
+Server OS: Designed to manage and serve resources to other computers on a network, examples include Windows Server and Ubuntu Server.
 
 
-Another key concept I picked up was the Kernel , this is the core part of the operating system that directly interacts with the hardware. Everything else in the OS sits on top of the kernel. It's essentially the lowest level of software running on a computer.
+Another key concept I picked up was the Kernel, this is the core part of the operating system that directly interacts with the hardware. Everything else in the OS sits on top of the kernel. It's essentially the lowest level of software running on a computer.
 
 I also learned about the difference between a GUI (Graphical User Interface) and a CLI (Command Line Interface):
 
 
-A GUI is the visual, point-and-click interface most people are used to , like Windows desktop with icons and windows.
-A CLI is text-based , you type commands directly. It's more powerful and efficient once you know what you're doing, which is why most hacking tools and server management is done through a CLI.
+A GUI is the visual, point-and-click interface most people are used to, like Windows desktop with icons and windows.
+A CLI is text-based, you type commands directly. It's more powerful and efficient once you know what you're doing, which is why most hacking tools and server management is done through a CLI.
 
 
 What I took away from this
 
-I already had some idea of what an operating system was just from using Windows every day, but I didn't really understand everything happening underneath. The part that stood out most to me was learning about the kernel , knowing that there's this core layer that directly talks to the hardware, and everything else is built on top of it, made it easier to understand why different OS types exist and why some tasks require more direct access to the system than others.
+I already had some idea of what an operating system was just from using Windows every day, but I didn't really understand everything happening underneath. The part that stood out most to me was learning about the kernel, knowing that there's this core layer that directly talks to the hardware, and everything else is built on top of it, made it easier to understand why different OS types exist and why some tasks require more direct access to the system than others.
 ## Windows Basics
 
 ## Linux CLI Basics
@@ -344,10 +344,10 @@ The objective of this section was to understand how computers actually store and
 
 What did I learn?
 
-I learned that computers only understand two states , on and off , which is represented as 1 and 0. This is called the binary number system, and it's the foundation of everything a computer does. Every piece of data , whether it's a text message, an image, a video, or a program , is ultimately stored as a sequence of 1s and 0s.
+I learned that computers only understand two states, on and off, which is represented as 1 and 0. This is called the binary number system, and it's the foundation of everything a computer does. Every piece of data, whether it's a text message, an image, a video, or a program, is ultimately stored as a sequence of 1s and 0s.
 
 Bits and Bytes
-I learned that a single bit is the smallest unit of data , it's just a 0 or a 1. Eight bits together make a byte. From there:
+I learned that a single bit is the smallest unit of data, it's just a 0 or a 1. Eight bits together make a byte. From there:
 
 
 1,000 bytes = 1 Kilobyte (KB)
@@ -361,17 +361,17 @@ I learned how binary numbers work. Unlike the decimal system we use every day (b
 
 1286432168421
 
-So the binary number 00001010 equals 8 + 2 = 10 in decimal. I found it useful to think of each column as a switch , if it's a 1, that value counts, if it's a 0, it doesn't.
+So the binary number 00001010 equals 8 + 2 = 10 in decimal. I found it useful to think of each column as a switch, if it's a 1, that value counts, if it's a 0, it doesn't.
 
 Hexadecimal (Base-16)
-I also learned about hexadecimal, which is a base-16 number system that uses digits 0–9 and then letters A–F to represent values 10–15. Hex is used a lot in computing because it's a more compact way of representing binary , 8 bits of binary can be written as just 2 hex digits. You see hexadecimal used in things like colour codes in web design (like #FF5733) and memory addresses.
+I also learned about hexadecimal, which is a base-16 number system that uses digits 0–9 and then letters A–F to represent values 10–15. Hex is used a lot in computing because it's a more compact way of representing binary, 8 bits of binary can be written as just 2 hex digits. You see hexadecimal used in things like colour codes in web design (like #FF5733) and memory addresses.
 
 How text is represented
 I learned that text is stored using character encoding systems. The most well known is ASCII (American Standard Code for Information Interchange), which assigns a number to each letter, digit, and symbol. For example, the letter "A" is 65 in ASCII. The computer stores that number in binary, and when it displays it, it converts it back to the character.
 
 What I took away from this
 
-I always knew computers used binary at some level but I never really understood how it actually worked until this section. The thing that clicked for me was realising that everything , every file, every image, every piece of text , is just numbers under the hood, and binary is how those numbers are stored at the hardware level. Understanding hex also made sense of things I'd seen before but never understood, like colour codes in web design or memory addresses when debugging.
+I always knew computers used binary at some level but I never really understood how it actually worked until this section. The thing that clicked for me was realising that everything, every file, every image, every piece of text, is just numbers under the hood, and binary is how those numbers are stored at the hardware level. Understanding hex also made sense of things I'd seen before but never understood, like colour codes in web design or memory addresses when debugging.
 ## Data Encoding
 
 ## Python: Simple Demo
@@ -390,7 +390,7 @@ Note: I completed this section on the free tier. The remaining sections in Modul
 
 What was the objective?
 
-The objective of this section was to understand the CIA Triad , the three core principles that form the foundation of cybersecurity.
+The objective of this section was to understand the CIA Triad, the three core principles that form the foundation of cybersecurity.
 
 What did I learn?
 
@@ -404,7 +404,7 @@ Examples of how confidentiality is protected:
 
 Encryption: Scrambling data so only someone with the right key can read it
 Access controls: Making sure only the right people can access certain files or systems
-Authentication: Verifying who someone is before granting them access , like passwords or two-factor authentication
+Authentication: Verifying who someone is before granting them access, like passwords or two-factor authentication
 
 
 A breach of confidentiality would be something like a hacker stealing a database of user passwords, or an employee leaking sensitive company information.
@@ -415,7 +415,7 @@ Integrity is about making sure that data is accurate and hasn't been tampered wi
 Examples of how integrity is maintained:
 
 
-Hashing: A mathematical function that produces a unique fingerprint of data. If even one character in a file is changed, the hash changes , making tampering detectable
+Hashing: A mathematical function that produces a unique fingerprint of data. If even one character in a file is changed, the hash changes, making tampering detectable
 Digital signatures: Used to verify that a file or message came from who it says it came from and hasn't been altered
 Checksums: Similar to hashing, used to verify data hasn't been corrupted during transfer
 
@@ -444,11 +444,11 @@ A man-in-the-middle attack altering messages = Integrity failure
 A ransomware attack = Availability failure
 
 
-Understanding the CIA Triad helps security professionals think about threats in a structured way , instead of reacting to individual attacks, you can ask: which of these three principles is being targeted, and how do I protect it?
+Understanding the CIA Triad helps security professionals think about threats in a structured way, instead of reacting to individual attacks, you can ask: which of these three principles is being targeted, and how do I protect it?
 
 What I took away from this
 
-The CIA Triad gave me a proper framework for thinking about cybersecurity rather than just thinking about it as "stopping hackers." Every security decision , whether it's setting up a firewall, encrypting a file, or backing up data , maps back to one of these three goals. The one that surprised me most was Availability, because I hadn't really thought about it as a security concern before. But when I thought about how devastating a ransomware attack that locks you out of your own systems would be, it made complete sense why it's just as important as the other two.
+The CIA Triad gave me a proper framework for thinking about cybersecurity rather than just thinking about it as "stopping hackers." Every security decision, whether it's setting up a firewall, encrypting a file, or backing up data, maps back to one of these three goals. The one that surprised me most was Availability, because I hadn't really thought about it as a security concern before. But when I thought about how devastating a ransomware attack that locks you out of your own systems would be, it made complete sense why it's just as important as the other two.
 ## Cryptography Concepts
 
 ## Become a Hacker
